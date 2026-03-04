@@ -8,7 +8,7 @@
 
 Official implementation of **Coevolving with the Other You: Fine-Tuning LLM with Sequential Cooperative Multi-Agent Reinforcement Learning** (NeurIPS 2024).
 
-**Authors:** Hao Ma, Tianyi Hu, Zhiqiang Pu, Boyin Liu, Xiaolin Ai, Yanyan Liang, Min Chen  
+**Authors:** Hao Ma*(Co-First), Tianyi Hu*(Co-First), Zhiqiang Pu, Boyin Liu, Xiaolin Ai, Yanyan Liang, Min Chen  
 **Affiliations:** University of Chinese Academy of Sciences; Institute of Automation, Chinese Academy of Sciences; Alibaba (China) Co., Ltd.; Macau University of Science and Technology
 
 ---
@@ -124,3 +124,4 @@ If you find this work useful, please cite:
 ## Statement
 
 We will continue to maintain this code repository in the coming months.
+
