@@ -1,4 +1,4 @@
-![CORY LOGO](img/CORY-LOGO.jpg)
+<div align="center"><img src="img/CORY-LOGO.jpg" width="320"></div>
 
 # Coevolving with the Other You (CORY)
 
@@ -66,7 +66,8 @@ The LLM is duplicated into two autonomous agents:
 
 The Observer sees the Pioneer's output and essentially learns "how to improve a peer's answer," forming a knowledge transfer chain.
 
-![CORY Framework](imgs/fig_framework.png)
+<div align="center"><img src="imgs/fig_framework.png" width="700"></div>
+
 *Overview of the CORY framework: Pioneer generates initial responses, Observer refines based on Pioneer's output.*
 
 #### Cooperative Reward: Joint Optimization
@@ -96,7 +97,8 @@ Every `T_exchange` steps, Pioneer and Observer **swap roles**: the original Obse
 
 Task: Fine-tune LLM to generate positive movie reviews.
 
-![IMDB Results](imgs/fig_imdb_results.png)
+<div align="center"><img src="imgs/fig_imdb_results.png" width="580"></div>
+
 *Reward curves on the IMDB sentiment task. CORY achieves higher final reward with less variance compared to PPO baselines.*
 
 **Key findings:**
@@ -107,7 +109,8 @@ Task: Fine-tune LLM to generate positive movie reviews.
 
 Task: Fine-tune LLM for grade-school math problem solving.
 
-![GSM8K Results](imgs/fig_gsm8k_results.png)
+<div align="center"><img src="imgs/fig_gsm8k_results.png" width="580"></div>
+
 *Accuracy on GSM8K arithmetic reasoning benchmark. CORY consistently outperforms single-agent RL approaches.*
 
 **Key findings:**
@@ -116,7 +119,8 @@ Task: Fine-tune LLM for grade-school math problem solving.
 
 #### Ablation Studies
 
-![Ablation](imgs/fig_ablation.png)
+<div align="center"><img src="imgs/fig_ablation.png" width="600"></div>
+
 *Ablation study showing the contribution of each component: cooperative reward, role exchange, and dual-agent architecture.*
 
 **Ablation findings:**

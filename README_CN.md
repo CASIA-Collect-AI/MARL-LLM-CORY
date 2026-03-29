@@ -1,4 +1,4 @@
-![CORY LOGO](img/CORY-LOGO.jpg)
+<div align="center"><img src="img/CORY-LOGO.jpg" width="320"></div>
 
 # 与另一个你共同进化（CORY）
 
@@ -66,7 +66,8 @@ LLM 被复制为两个自主智能体：
 
 观察体能看到先锋体的输出，本质上是在"学习如何改进同伴的答案"，形成知识传递链路。
 
-![CORY 框架](imgs/fig_framework.png)
+<div align="center"><img src="imgs/fig_framework.png" width="700"></div>
+
 *CORY 框架总览：先锋体生成初始回答，观察体基于先锋体的输出进行改进*
 
 #### 协作奖励：共同优化总体表现
@@ -96,7 +97,8 @@ r_CORY(s₀, a₁, a₂) = r(s₀, a₁) + r(s₀, a₂)
 
 任务：微调 LLM 以生成正面电影评论。
 
-![IMDB 结果](imgs/fig_imdb_results.png)
+<div align="center"><img src="imgs/fig_imdb_results.png" width="580"></div>
+
 *IMDB 情感任务上的奖励曲线。与 PPO 基线相比，CORY 以更小方差实现更高的最终奖励*
 
 **核心发现：**
@@ -107,7 +109,8 @@ r_CORY(s₀, a₁, a₂) = r(s₀, a₁) + r(s₀, a₂)
 
 任务：微调 LLM 用于小学数学题求解。
 
-![GSM8K 结果](imgs/fig_gsm8k_results.png)
+<div align="center"><img src="imgs/fig_gsm8k_results.png" width="580"></div>
+
 *GSM8K 算术推理基准测试准确率。CORY 持续优于单智能体 RL 方法*
 
 **核心发现：**
@@ -116,7 +119,8 @@ r_CORY(s₀, a₁, a₂) = r(s₀, a₁) + r(s₀, a₂)
 
 #### 消融实验
 
-![消融实验](imgs/fig_ablation.png)
+<div align="center"><img src="imgs/fig_ablation.png" width="600"></div>
+
 *消融实验展示各组件贡献：协作奖励、角色交换和双智能体架构*
 
 **消融发现：**
